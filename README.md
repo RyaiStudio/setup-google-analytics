@@ -3,12 +3,13 @@
 ### Setup Account
 - goto > [google analytics](https://analytics.google.com/analytics/web/)
 - create an account and fill up the form
-**ex:** form
->      Account Name: `Company Name Ltd.`
->      Website Name : `exmaple.com`
->      Website Url : `http / https`
->      Reporting Time Zone : `select right timezone`
->      save and get tracking **ID** and **Code**
+      
+     **ex:** form
+     - Account Name: `Company Name Ltd.`
+     - Website Name : `exmaple.com`
+     - Website Url : `http / https`
+     - Reporting Time Zone : `select right timezone`
+     - save and get tracking **ID** and **Code**
 
 
 - Goto your website ex: `example.com` place the code before the end of html header tag.
@@ -26,13 +27,15 @@ wait for a minute process the data
 
 ### Setup Goals
 - go to admin section on `view section` click `goals`
-- create a new goals and select your configuration for now we use `custom` and continue.
+- create a new goals and select your configuration *for now we use* `custom` then click continue.
 
-**ex** form
->      **Goal Description**
->      Name : `Purchase Ex.`
->      Goal Slot ID : `your selected id`
->      Select your type: `i select here is Destination`
->      **Goal Details**
->      Destination : `Begins with` : `/checkout/order-received/` this will be your url checkout page for ex. then `click save`
->      to track your goals `reports` and click `convertions`
+     **ex** form
+     - **Goal Description**
+     - Name : `Purchase Ex.`
+     - Goal Slot ID : `your selected id`
+     - Select your type: `i select here is Destination`
+     - **Goal Details**
+     - Destination : `Begins with` : `/checkout/order-received/` 
+     - this will be your url checkout page for ex. then `click save`
+  
+ - to track your goals goto to `reports` and click `convertions`

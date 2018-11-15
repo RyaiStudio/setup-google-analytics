@@ -1,10 +1,18 @@
 # Google Analytics Setup Account
 
 ### Setup Account
-- goto your [google analytics](https://analytics.google.com/analytics/web/) accout
-- on admin setting create an account and fill up the form
-- save and get tracking **ID** and **Code**
+- goto your [google analytics](https://analytics.google.com/analytics/web/) account
+- create an account and fill up the form
+      
+     **ex:** form
+     - Account Name: `Company Name Ltd.`
+     - Website Name : `exmaple.com`
+     - Website Url : `http / https`
+     - Reporting Time Zone : `select right timezone`
+     - save and get tracking **ID** and **Code**
+
 - Goto your website ex: `example.com` place the code before the end of html header tag.
+
 **ex:**
 
         <html>
@@ -13,7 +21,7 @@
             </head>
 - to see if the page is updated go to to site homepage and **right click** on the browser and select `view page source`
 - add google chrome extension
-- to see real time reports your real time reports go back to your google analytics account. `Goto > reports > overview` 
+- to see real time reports go to your google analytics account. `Goto > reports > overview` 
 wait for a minute process the data
 
 ### Setup Goals
@@ -28,7 +36,7 @@ wait for a minute process the data
 > Destination : `Begins with` : `/checkout/order-received/` this will be your url checkout page for ex. `click save`
 > to track your goals `reports` and click `convertions`
 
-[![Alt text](https://img.youtube.com/vi/ZM-ZH3m7zSA/mqdefault.jpg)] (https://www.youtube.com/watch?v=ZM-ZH3m7zSA)
+[![Alt text](https://img.youtube.com/vi/ZM-ZH3m7zSA/mqdefault.jpg)](https://www.youtube.com/watch?v=ZM-ZH3m7zSA)
 
 **visit video tuitorial [here](https://www.youtube.com/watch?v=ZM-ZH3m7zSA)**
 
@@ -79,3 +87,5 @@ For websites with more complex tracking needs (events, etc)
 - to make sure if all set on ADMIN property column SELECT `Tracking Info` > `Referral Exclusion List`
 
 visit the video tuitorial [here](https://www.youtube.com/watch?v=hgIcXHnmS3w)
+
+

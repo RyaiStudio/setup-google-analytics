@@ -40,7 +40,7 @@ wait for a minute process the data
 
 **visit video tuitorial [here](https://www.youtube.com/watch?v=ZM-ZH3m7zSA)**
 
-# GTM - GTM Account Setup
+# GTM Account Setup
 For websites with more complex tracking needs (events, etc)
 
 ### step 1
@@ -68,8 +68,8 @@ For websites with more complex tracking needs (events, etc)
 - on `Track Type` select `Page View` and for Google Analytics Settings select `{{GA - Tracking ID}}`
 - Triggering should be `All Pages` and then click `SAVE`
 - on the up right of the page click `SUBMIT`
-> Version Name Ex: `Initial Version`
-> Version Description Ex: `Initial Version`
+     - Version Name Ex: `Initial Version`
+     - Version Description Ex: `Initial Version`
 - click `PUBLISH`
 
 ### step 3
